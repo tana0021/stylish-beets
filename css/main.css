@@ -4,7 +4,6 @@ html {
   font-family: "PT Sans", sans-serif;
   font-family: "PT Serif", serif;
   line-height: 1.5;
-  font-size: .8rem;
 }
 
 * {
@@ -12,9 +11,9 @@ html {
 }
 
 h1 {
-  font-size: 1.5rem;
   font-family: "PT Sans", sans-serif;
   color: #3f1622;
+  font-size: 1.5rem;
 }
 
 h2 {
@@ -27,6 +26,10 @@ h2 {
   font-weight: bold;
   font-family: "PT Sans", sans-serif;
   font-size: 1.125rem;
+}
+
+.title {
+  font-style: italic;
 }
 
 a {
@@ -63,8 +66,9 @@ em {
 }
 
 q {
-  font-size: 1.5rem;
   font-style: italic;
+  text-align: center;
+  font-size: 1.5rem;
 }
 
 cite {
