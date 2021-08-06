@@ -1,25 +1,32 @@
 html {
   box-sizing: border-box;
   background-color: #c9b5ab;
-  font-family: 'PT Sans', sans-serif;
-  font-family: 'PT Serif', serif;
+  font-family: "PT Sans", sans-serif;
+  font-family: "PT Serif", serif;
   line-height: 1.5;
-  font-size: 0.8rem;
+  font-size: .8rem;
 }
 
 * {
   box-sizing: inherit;
 }
 
-h2 {
-  font-family: 'PT Sans', sans-serif;
+h1 {
+  font-size: 1.5rem;
+  font-family: "PT Sans", sans-serif;
   color: #3f1622;
 }
+
+h2 {
+  font-family: "PT Sans", sans-serif;
+  color: #3f1622;
+}
+
 
 #main-navigation ol li {
   list-style-type: none;
   font-weight: bold;
-  font-family: 'PT Sans', sans-serif;
+  font-family: "PT Sans", sans-serif;
   font-size: 1.125rem;
 }
 
@@ -69,7 +76,16 @@ cite {
   text-decoration: underline;
 }
 
+a:hover {
+text-decoration: underline;
+}
+
 #main-navigation ol li a:hover {
   text-decoration: underline;
   color: #3f1622;
+}
+
+.serving-size {
+  font-style: normal;
+  font-weight: normal;
 }
