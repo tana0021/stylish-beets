@@ -88,3 +88,11 @@ a:hover {
   font-style: normal;
   font-weight: normal;
 }
+
+.tags li {
+  list-style-type: circle;
+}
+
+.cv li {
+  list-style-type: lower-greek;
+}
