@@ -1,0 +1,75 @@
+html {
+  box-sizing: border-box;
+  background-color: #c9b5ab;
+  font-family: 'PT Sans', sans-serif;
+  font-family: 'PT Serif', serif;
+  line-height: 1.5;
+  font-size: 0.8rem;
+}
+
+* {
+  box-sizing: inherit;
+}
+
+h2 {
+  font-family: 'PT Sans', sans-serif;
+  color: #3f1622;
+}
+
+#main-navigation ol li {
+  list-style-type: none;
+  font-weight: bold;
+  font-family: 'PT Sans', sans-serif;
+  font-size: 1.125rem;
+}
+
+a {
+  font-style: normal;
+  color: #8f2440;
+  text-decoration: none;
+}
+
+img {
+  width: 100%;
+}
+
+figure figcaption {
+  font-style: italic;
+  text-align: center;
+}
+
+dt {
+  font-weight: bold;
+}
+
+.quote {
+  font-weight: bold;
+  font-style: normal;
+}
+
+em .title {
+  font-style: italic;
+}
+
+em {
+  font-style: normal;
+  font-weight: bold;
+}
+
+q {
+  font-size: 1.5rem;
+  font-style: italic;
+}
+
+cite {
+  display: block;
+}
+
+.wiki:hover {
+  text-decoration: underline;
+}
+
+#main-navigation ol li a:hover {
+  text-decoration: underline;
+  color: #3f1622;
+}
