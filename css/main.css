@@ -22,7 +22,6 @@ h2 {
   color: #3f1622;
 }
 
-
 #main-navigation ol li {
   list-style-type: none;
   font-weight: bold;
@@ -77,7 +76,7 @@ cite {
 }
 
 a:hover {
-text-decoration: underline;
+  text-decoration: underline;
 }
 
 #main-navigation ol li a:hover {
